@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MiraWEB - Nền tảng tạo website bằng AI </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- css -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/b-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="dashboard_opacity"></div>
+    <div class="dashboard_close_menu">
+        <figure><img src="images/admin-mirabot-menu-mobile-close_icon.svg"></figure>
+    </div>
+    <div class="mirabot_dashboard_homepage">
+        <div class="dashboard_general">
+            <div class="dashboard_ct_left">
+                <div class="dashboard_toppage">
+                    <div class="toppage_left">
+                        <figure class="dashboard_icon_click"><img src="images/admin-mirabot-mobile-bar-icon.svg">
+                        </figure>
+                    </div>
+                    <div class="toppage_middle">
+                        <figure><a href="#"><img src="images/admin-mirabot-logo.svg"></a></figure>
+                    </div>
+                    <div class="toppage_right">
+                        <div class="dashboard_translate select_wrap">
+                            <div class="show_choice">
+                                <ul class="default_option">
+                                    <li>
+                                        <div class="noitpo"><span>Tiếng việt</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="select_ul">
+                                <li>
+                                    <div class="noitpo"><span>Tiếng việt</span></div>
+                                </li>
+                                <li>
+                                    <div class="noitpo"><span>Tiếng anh</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- dashboard_toppage -->
+                <div class="dashboard_ke_po show_hide_tab_parent">
+                    <div class="ke_po_general">
+                        <div class="dashboard_menu">
+                            <div class="dashboard_menu_bg">
+                                <nav>
+                                    <ul class="menu show_hide_tab">
+                                        <li class="current" data-tab="mirabot-unem-1"><a href="#">
+                                                <figure><img src="images/admin-mirabot-menu-grey-icon1.svg"
+                                                        class="menu_img_not">
+                                                    <img src="images/admin-mirabot-menu-blue-icon1.svg"
+                                                        class="menu_img_yes">
+                                                </figure>
+                                                <span>Trang chủ</span>
+                                            </a></li>
+                                        <li data-tab="mirabot-unem-2"><a href="#">
+                                                <figure><img src="images/admin-mirabot-menu-grey-icon2.svg"
+                                                        class="menu_img_not">
+                                                    <img src="images/admin-mirabot-menu-blue-icon2.svg"
+                                                        class="menu_img_yes">
+                                                </figure>
+                                                <span>BOTS</span>
+                                            </a></li>
+                                        <li data-tab="mirabot-unem-3"><a href="#">
+                                                <figure><img src="images/admin-mirabot-menu-grey-icon3.svg"
+                                                        class="menu_img_not">
+                                                    <img src="images/admin-mirabot-menu-blue-icon3.svg"
+                                                        class="menu_img_yes">
+                                                </figure>
+                                                <span>Nhóm</span>
+                                            </a></li>
+                                        <li data-tab="mirabot-unem-4"><a href="#">
+                                                <figure><img src="images/admin-mirabot-menu-grey-icon4.svg"
+                                                        class="menu_img_not">
+                                                    <img src="images/admin-mirabot-menu-blue-icon4.svg"
+                                                        class="menu_img_yes">
+                                                </figure>
+                                                <span>Tài khoản</span>
+                                            </a></li>
+                                        <li data-tab="mirabot-unem-5"><a href="#">
+                                                <figure><img src="images/admin-mirabot-menu-grey-icon5.svg"
+                                                        class="menu_img_not">
+                                                    <img src="images/admin-mirabot-menu-blue-icon5.svg"
+                                                        class="menu_img_yes">
+                                                </figure>
+                                                <span>API</span>
+                                            </a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div><!-- dashboard_menu -->
+                        <div class="dashboard_super_bg">
+                            <div class="dashboard_notifi tab-content current" id="mirabot-unem-1">
+                                <div class="notifi_general">
+                                    <div class="notifi_top">
+                                        <div class="notifi_bg">
+                                            <div class="notifi_num ">
+                                                <div class="notifi_ct">
+                                                    <div class="notifi_inside">
+                                                        <figure class="notifi_img"><img
+                                                                src="images/admin-mirabot-head-icon-topage.svg">
+                                                        </figure>
+                                                        <span class="notifi_statistical"><strong>01</strong> /01</span>
+                                                        <b>BOTS</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="notifi_pack ">
+                                                <div class="notifi_ct">
+                                                    <div class="notifi_inside">
+                                                        <figure class="notifi_img"><img
+                                                                src="images/admin-mirabot-target-icon-topage.svg">
+                                                        </figure>
+                                                        <span class="notifi_statistical"><strong>Free</strong></span>
+                                                        <b>Gói hiện tại</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="notifi_create ">
+                                                <div class="notifi_ct">
+                                                    <div class="notifi_inside">
+                                                        <h2>Tạo mới BOT</h2>
+                                                        <div class="notifi_create_ct">
+                                                            <a href="#">
+                                                                <figure><img
+                                                                        src="images/admin-mirabot-newhead-icon-topage.svg">
+                                                                </figure>
+                                                                <span>Tạo mới BOT</span>
+                                                                <p>Đào tạo BOT với tài liệu và nội dung của bạn</p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="notifi_detailds">
+                                                <figure><img src="images/admin-mirabot-source-icon-topage.svg"></figure>
+                                                <div class="text_widget">
+                                                    <div class="wrap_figure">
+                                                        <strong>Nguồn</strong>
+                                                        <span class="notifi_listed"><strong>3</strong></span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="notifi_detailds">
+                                                <figure><img src="images/admin-mirabot-newsource-icon-topage.svg">
+                                                </figure>
+                                                <div class="text_widget">
+                                                    <div class="wrap_figure">
+                                                        <strong>Trang nguồn</strong>
+                                                        <span class="notifi_listed"><strong>3</strong> /50</span>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="bar" style="width:6%">
+                                                            <p class="percent"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="notifi_detailds">
+                                                <figure><img src="images/admin-mirabot-question-icon-topage.svg">
+                                                </figure>
+                                                <div class="text_widget">
+                                                    <div class="wrap_figure">
+                                                        <strong>Câu hỏi</strong>
+                                                        <span class="notifi_listed"><strong>3</strong> /50</span>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="bar" style="width:6%">
+                                                            <p class="percent"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div><!-- dashboard_notifi -->
+                            <div class="dashboard_botegap tab-content" id="mirabot-unem-2">
+                            </div>
+                        </div><!-- dashboard_super_bg -->
+                    </div>
+                </div><!-- dashboard_ke_po  -->
+            </div><!-- dashboard_ct_left -->
+            <div class="dashboard_ct_right">
+                <div class="dashboard_user">
+                    <div class="user_general">
+                        <div class="user_left">
+                            <div class="wrap_figure">
+                                <figure><a href="#"><img src="images/admin-mirabot-ava-user.svg"></a></figure>
+                            </div>
+                            <div class="text_widget">
+                                <span class="user_name">Hoang’s team</span>
+                                <p>Thông tin tài khoản</p>
+                            </div>
+                        </div>
+                        <div class="user_right">
+                            <a href="#"><img src="images/admin-mirabot-user-arr-icon.svg"></a>
+                        </div>
+                    </div>
+                </div><!-- dashboard_user -->
+                <div class="dashboard_package">
+                    <h2 class="dashboard_sidebar_title">Gói dịch vụ</h2>
+                    <div class="package_general">
+                        <div class="package_detailds">
+                            <div class="package_ct">
+                                <span>Gói hiện tại</span>
+                                <strong>Free</strong>
+                            </div>
+                            <div class="package_ct">
+                                <span>Giới hạn BOT</span>
+                                <strong>1</strong>
+                            </div>
+                            <div class="package_ct">
+                                <span>Giới hạn trang nguồn</span>
+                                <strong>50</strong>
+                            </div>
+                            <div class="package_ct">
+                                <span>Giới hạn câu hỏi</span>
+                                <strong>100</strong>
+                            </div>
+                        </div>
+                        <div class="package_change">
+                            <span class="package_btn">Thay đổi gói</span>
+                        </div>
+                    </div>
+                </div><!-- dashboard_package -->
+                <div class="dashboard_account">
+                    <h2 class="dashboard_sidebar_title">Tài khoản</h2>
+                    <div class="account_general">
+                        <div class="account_detailds">
+                            <div class="account_ct">
+                                <div class="account_inside">
+                                    <a href="#">
+                                        <figure><img src="images/admin-mirabot-account-icon1.svg"></figure>
+                                        <span>Tạo BOT</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account_detailds">
+                            <div class="account_ct">
+                                <div class="account_inside">
+                                    <a href="#">
+                                        <figure><img src="images/admin-mirabot-account-icon2.svg"></figure>
+                                        <span>Danh sách BOT</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account_detailds">
+                            <div class="account_ct">
+                                <div class="account_inside">
+                                    <a href="#">
+                                        <figure><img src="images/admin-mirabot-account-icon3.svg"></figure>
+                                        <span>Gói & Hóa đơn</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account_detailds">
+                            <div class="account_ct">
+                                <div class="account_inside">
+                                    <a href="#">
+                                        <figure><img src="images/admin-mirabot-account-icon4.svg"></figure>
+                                        <span>Quản lý nhóm</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- dashboard_account -->
+            </div><!-- dashboard_ct_right -->
+        </div>
+    </div><!-- mirabot_dashboard_homepage -->
+</body>
+<div class="popup popup_price_list">
+    <div class="content_popup">
+        <h2>Bảng giá</h2>
+        <div class="close_popup"><img src="images/mira-close-popup.svg"></div>
+        <div class="ecirp_general show_hide_tab_parent">
+            <div class="list_ecirp">
+                <strong>Mua</strong>
+                <ul class="show_hide_tab">
+                    <li data-tab="qb-ecirp-1" class="current"><a href="#">Theo năm <strong>-17%</strong></a></li>
+                    <li data-tab="qb-ecirp-2"><a href="#">Theo tháng</a></li>
+                </ul>
+            </div>
+            <div id="qb-ecirp-1" class="ecirp_detailds tab-content current">
+                <div class="ecirp_bg">
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Free</b>
+                            <span class="ecirp_price"><strong>0</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Trải nghiệm MiraBOT miễn phí</span>
+                            <ul class="ecirp_ificepc">
+                                <li>1 BOT</li>
+                                <li>50 Trang nguồn/ tháng</li>
+                                <li>100 Câu hỏi/ tháng</li>
+                                <li>1 Người dùng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Basic <strong>Bán chạy</strong></b>
+                            <span class="ecirp_price"><strong>416.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Phù hợp cho cá nhân và doanh nghiệp nhỏ</span>
+                            <ul class="ecirp_ificepc">
+                                <li>1 BOT</li>
+                                <li>1.000 Trang nguồn/ tháng</li>
+                                <li>1.000 Câu hỏi/ tháng</li>
+                                <li>2 Người dùng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Standard</b>
+                            <span class="ecirp_price"><strong>1.999.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Phù hợp cho cá nhân và doanh nghiệp nhỏ</span>
+                            <ul class="ecirp_ificepc">
+                                <li>5 BOTs</li>
+                                <li>5.000 Trang nguồn/ tháng</li>
+                                <li>5.000 Câu hỏi/ tháng</li>
+                                <li>5 Người dùng</li>
+                                <li>Tự động làm mới URL hàng tháng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Pro</b>
+                            <span class="ecirp_price"><strong>3.999.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Đáp ứng nhu cầu mô hình kinh doanh lớn</span>
+                            <ul class="ecirp_ificepc">
+                                <li>10 BOTs</li>
+                                <li>10.000 Trang nguồn/ tháng</li>
+                                <li>10.000 Câu hỏi/ tháng</li>
+                                <li>10 Người dùng</li>
+                                <li>Tự động làm mới URL hàng tháng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- qb-ecirp-1 -->
+            <div id="qb-ecirp-2" class="ecirp_detailds tab-content">
+                <div class="ecirp_bg">
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Free</b>
+                            <span class="ecirp_price"><strong>0</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Trải nghiệm MiraBOT miễn phí</span>
+                            <ul class="ecirp_ificepc">
+                                <li>1 BOT</li>
+                                <li>50 Trang nguồn/ tháng</li>
+                                <li>100 Câu hỏi/ tháng</li>
+                                <li>1 Người dùng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Basic <strong>Bán chạy</strong></b>
+                            <span class="ecirp_price"><strong>499.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Phù hợp cho cá nhân và doanh nghiệp nhỏ</span>
+                            <ul class="ecirp_ificepc">
+                                <li>1 BOT</li>
+                                <li>1.000 Trang nguồn/ tháng</li>
+                                <li>1.000 Câu hỏi/ tháng</li>
+                                <li>2 Người dùng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Standard</b>
+                            <span class="ecirp_price"><strong>2.399.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Phù hợp cho cá nhân và doanh nghiệp nhỏ</span>
+                            <ul class="ecirp_ificepc">
+                                <li>5 BOTs</li>
+                                <li>5.000 Trang nguồn/ tháng</li>
+                                <li>5.000 Câu hỏi/ tháng</li>
+                                <li>5 Người dùng</li>
+                                <li>Tự động làm mới URL hàng tháng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="ecirp_ct">
+                        <div class="ecirp_inside">
+                            <b class="ecirp_eman">Pro</b>
+                            <span class="ecirp_price"><strong>4.799.000</strong> VNĐ/ tháng</span>
+                            <span class="ecirp_sapo">Đáp ứng nhu cầu mô hình kinh doanh lớn</span>
+                            <ul class="ecirp_ificepc">
+                                <li>10 BOTs</li>
+                                <li>10.000 Trang nguồn/ tháng</li>
+                                <li>10.000 Câu hỏi/ tháng</li>
+                                <li>10 Người dùng</li>
+                                <li>Tự động làm mới URL hàng tháng</li>
+                            </ul>
+                            <a href="#" class="ecirp_btn">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- qb-ecirp-2 -->
+        </div>
+    </div>
+</div><!-- popup_price_list -->
+<div class="popup popup_delete_bot">
+    <div class="content_popup">
+        <h2>Xóa BOT Test 01?</h2>
+        <div class="close_popup"><img src="images/mira-close-popup.svg"></div>
+        <div class="delete_bot_general">
+            <span>Lưu ý! Nếu xóa BOT này, tất cả các nguồn được lập chỉ mục sẽ bị xóa và mọi cuộc trò chuyện được nhúng
+                cho BOT này sẽ không còn hoạt động.</span>
+            <div class="delete_bot_btn">
+                <a href="#" class="cancel_delete_bot">Hủy</a>
+                <a href="#" class="confirm_delete_bot">Xóa</a>
+            </div>
+        </div>
+    </div>
+</div><!-- popup_delete_bot -->
+<script src="js/custom.js"></script>
+
+</html>
